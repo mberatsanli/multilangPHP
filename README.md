@@ -3,6 +3,8 @@
 [![MBS-PHP](http://mberatsanli.com/mbs4php.png)](http://mberatsanli.github.io/multilangPHP)
 
 [![MBS-build](https://api.travis-ci.org/mberatsanli/multilangPHP.svg?branch=master)](https://travis-ci.org/mberatsanli/multilangPHP/jobs/522465502)
+[![MBS-build](https://scrutinizer-ci.com/g/mberatsanli/multilangPHP/badges/quality-score.png?b=master)](hhttps://scrutinizer-ci.com/g/mberatsanli/multilangPHP/)
+[![MBS-build](https://scrutinizer-ci.com/g/mberatsanli/multilangPHP/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 
 ### Import the library
 	require_once("lib/emoji.php");
