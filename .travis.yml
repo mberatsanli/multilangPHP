@@ -2,8 +2,5 @@ language: php
 php:
   - 7.0
 matrix:
-  exclude:
-    - php: hhvm
   allow_failures:
     - php: 7.0
-    - php: hhvm

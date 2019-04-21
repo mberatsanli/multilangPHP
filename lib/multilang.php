@@ -29,16 +29,16 @@
  * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
 */
 
-class multilang{
+class multilang {
 	private static $lang ="tr"; // Predefined language
 	private static $dir = "system/lang/"; // Predefined directory
 	private static $log = array(); // Please don't touch
 
-	public static function get($req, $return = 0){
+	public static function get($req, $return = 0) {
 		global $_SESSION;
 		switch ($req){
 			case 'lang':
-				if($_SESSION['multilang']){
+				if($_SESSION['multilang']) {
 					if ($return) return $_SESSION['multilang'];
 					echo $_SESSION['multilang'];
 					break;
@@ -65,7 +65,7 @@ class multilang{
 		}
 	}
 
-	public static function set($type, $set){
+	public static function set($type, $set) {
 		global $_SESSION;
 		switch ($type) {
 			case 'lang':
@@ -83,16 +83,16 @@ class multilang{
 		}
 	}
 
-	public static function ctrl($fileLang){
+	public static function ctrl($fileLang) {
 		return file_exists(multilang::$dir.$fileLang.".php");
 	}
 
 	# Return Type: array, html (div>a*)
-	public static function listlang($returnType = "array"){
+	public static function listlang($returnType = "array") {
 		$langPHP_array = array();
 		$langPHP_html = '<div class="multilang">';
 		$openDir = opendir(multilang::get("dir", 1));
-		while (($file = readdir($openDir)) != FALSE ){
+		while (($file = readdir($openDir)) != FALSE ) {
 			if ($file =='.' || $file == '..' || is_file($file) || substr($language, -4, 4) == '.php') continue;
 			if ($returnType == "array") $langPHP_array[basename($file, ".php")] = $file;
 			if ($returnType == "html") $langPHP_html .= sprintf(' <a href="?lang=%s" title="language %s">%s</a> ', basename($file, ".php"), $file, $file);
@@ -102,29 +102,29 @@ class multilang{
 		return $returnType == "array" ? $langPHP_array : $langPHP_html;
 	}
 
-	public static function lang($type){
+	public static function lang($type) {
 		global $LANG;
-		if(!$LANG[$type]){
+		if (!$LANG[$type]) {
 			multilang::set("log", sprintf('NOT FOUND "%s" in %s.php', $type, multilang::get("lang", 1)));
 			return sprintf('<span style="background-color: red; color: white;">NOT FOUND "%s" in %s.php</span>', $type, multilang::get("lang", 1));
 		}
 		return $LANG[$type];
 	}
 
-	public static function setup(){
+	public static function setup() {
 		global $_GET, $_SESSION, $LANG;
-		if(session_status() == PHP_SESSION_NONE) session_start();
-		if($_GET && $_GET['lang']){
-			if(multilang::ctrl($_GET['lang'])){
+		if (session_status() == PHP_SESSION_NONE) session_start();
+		if ($_GET && $_GET['lang']) {
+			if (multilang::ctrl($_GET['lang'])) {
 				multilang::set("lang", $_GET['lang']);
 				require_once(multilang::get("dir&lang", 1));
-				multilang::set("log", sprintf("Language file loading (%s.php)", multilang::get("dir&lang",1)));
-			}else{
+				multilang::set("log", sprintf("Language file loading (%s.php)", multilang::get("dir&lang", 1)));
+			}else {
 				multilang::set("log", sprintf("Language file not found (%s.php)", multilang::$dir.$_GET['lang']));
 			}
-		}else{
+		}else {
 			require_once(multilang::get("dir&lang", 1));
-			multilang::set("log", sprintf("Language file loading (%s.php)", multilang::get("dir&lang",1)));
+			multilang::set("log", sprintf("Language file loading (%s.php)", multilang::get("dir&lang", 1)));
 		}
 	}
 }
