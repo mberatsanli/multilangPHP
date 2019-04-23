@@ -17,8 +17,6 @@
 require_once("lib/multilang.php");
 ```
 
----
-
 ## Using
 
 ####  > How to starting
@@ -92,6 +90,7 @@ echo multilang::lang('test'); // Output (return): Bu bir testtir.
 ## Exapmle Using
 ```php 
 // index.php
+require_once("lib/multilang.php");
 
 multilang::set("dir", "langs/"); // We defined the language directory
 multilang::setup(); // We starting the library
