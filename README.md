@@ -12,6 +12,6 @@
 [![MBS-build](https://scrutinizer-ci.com/g/mberatsanli/multilangPHP/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 
 ### Import the library
-	require_once("lib/emoji.php");
+	require_once("lib/multilang.php");
 
 ---
