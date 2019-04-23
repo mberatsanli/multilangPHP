@@ -35,14 +35,13 @@ before `mutlilang::setup();`
 multilang::get($req, $return);
 ```
 
---
 
 | $return | what is does |
 |--|--|
 | 1 | return |
 | 0 | echo |
+{: .tablelines}
 
---
 
 | $request | what is does | output example |
 |--|--|--|
@@ -51,11 +50,17 @@ multilang::get($req, $return);
 | log | Gives the log of the library | array() |
 | log_last | Gives the last log the library | The current language is set tr |
 | dir&lang | Gives the language file directory selected by the user | ../demo/langs/tr.php |
+
+
+
 ---
+
 ##### > List the language in the defined direcory
 ```php 
 echo multilang::listlang($returnType);
 ```
+
+
 | $returnType | what is does | output |
 |-------------|--------------|--------|
 | html | Gives languages in html format | div.multilang > [a href="?lang=tr" title="language tr"]tr[/a] |
