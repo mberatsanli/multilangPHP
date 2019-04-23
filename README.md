@@ -40,7 +40,6 @@ multilang::get($req, $return);
 |--|--|
 | 1 | return |
 | 0 | echo |
-{: .tablelines}
 
 
 | $request | what is does | output example |
@@ -51,9 +50,6 @@ multilang::get($req, $return);
 | log_last | Gives the last log the library | The current language is set tr |
 | dir&lang | Gives the language file directory selected by the user | ../demo/langs/tr.php |
 
-
-
----
 
 ##### > List the language in the defined direcory
 ```php 
