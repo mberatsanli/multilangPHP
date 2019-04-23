@@ -1,6 +1,5 @@
 # multilangPHP
 [![MBS](http://mberatsanli.com/mbs4github.png)](http://www.mberatsanli.com)
-[![MBS-PHP](http://mberatsanli.com/mbs4php.png)](http://mberatsanli.github.io/multilangPHP)
 
 [![MBS-PHP](https://img.shields.io/github/release/mberatsanli/multilangPHP.svg)](http://mberatsanli.github.io/multilangPHP)
 [![MBS-PHP](https://img.shields.io/github/last-commit/mberatsanli/multilangPHP.svg)](http://mberatsanli.github.io/multilangPHP)
