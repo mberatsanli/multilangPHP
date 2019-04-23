@@ -80,3 +80,18 @@ $LANG['CALLED_NAME'] = "CONTENTS";
 echo multilang::lang($type);
 ```
 $type is a CALLED NAME
+
+```php 
+// Example
+echo multilang::lang('test'); // Output (return): Bu bir testtir.
+```
+
+#### Exapmle Using
+```php 
+multilang::set("dir", "langs/"); // We defined the language directory
+multilang::setup(); // We starting the library
+
+echo multilang::lang("test"); // Echo the text
+
+print_r(multilang::get("log", 1)); // Print the log array
+```
