@@ -16,21 +16,23 @@
 ```php
 require_once("lib/multilang.php");
 ```
----
-#### Using
 
-#####  > How to starting
+---
+
+## Using
+
+####  > How to starting
 ```php
 multilang::setup();
 ```
 
-##### > Set Languages Directory
+#### > Set Languages Directory
 ```php
 multilang::set("dir", "../demo/langs/");
 ```
 before `mutlilang::setup();`
 
-##### > GET function
+#### > GET function
 ```php 
 multilang::get($req, $return);
 ```
@@ -51,7 +53,7 @@ multilang::get($req, $return);
 | dir&lang | Gives the language file directory selected by the user | ../demo/langs/tr.php |
 
 
-##### > List the language in the defined direcory
+#### > List the language in the defined direcory
 ```php 
 echo multilang::listlang($returnType);
 ```
@@ -87,8 +89,10 @@ $type is a CALLED NAME
 echo multilang::lang('test'); // Output (return): Bu bir testtir.
 ```
 
-#### Exapmle Using
+## Exapmle Using
 ```php 
+// index.php
+
 multilang::set("dir", "langs/"); // We defined the language directory
 multilang::setup(); // We starting the library
 
