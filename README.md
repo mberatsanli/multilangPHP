@@ -10,7 +10,7 @@
 
 [![MBS-master](https://api.travis-ci.org/mberatsanli/multilangPHP.svg?branch=master)](https://travis-ci.org/mberatsanli/multilangPHP/jobs/522465502)
 [![MBS-quality](https://scrutinizer-ci.com/g/mberatsanli/multilangPHP/badges/quality-score.png?b=master)](hhttps://scrutinizer-ci.com/g/mberatsanli/multilangPHP/)
-[![MBS-intelligence](https://scrutinizer-ci.com/g/mberatsanli/multilangPHP/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+[![MBS-intelligence](https://scrutinizer-ci.com/g/mberatsanli/multilangPHP/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/g/mberatsanli/multilangPHP/)
 
 ### Import the library
 ```php
