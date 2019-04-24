@@ -87,7 +87,7 @@ $type is a CALLED NAME
 echo multilang::lang('test'); // Output (return): Bu bir testtir.
 ```
 
-## Exapmle Using
+## Example Using
 ```php 
 // index.php
 require_once("lib/multilang.php");
