@@ -2,13 +2,10 @@
 /*
 *~ multilang.php
 .---------------------------------------------------------------------------.
-|  Software: multiLangPHP								                                    |
+|  Software: multiLangPHP						    |
 |   Version: 1.0.0                                                          |
-|   Contact: via sourceforge.net support pages (also www.worxware.com)      |
-|      Info: http://phpmailer.sourceforge.net                               |
-|   Support: http://sourceforge.net/projects/phpmailer/                     |
 | ------------------------------------------------------------------------- |
-|   Authors: Melih Berat ŞANLI (mberatsanli.com / github.io/mberatsanli)		|
+|   Authors: Melih Berat ŞANLI (mberatsanli.com / github.io/mberatsanli)    |
 | Copyright (c) 2019, Melih Berat ŞANLI. All Rights Reserved.               |
 | ------------------------------------------------------------------------- |
 |   License: Distributed under the Lesser General Public License (LGPL)     |
