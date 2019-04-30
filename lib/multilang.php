@@ -7,18 +7,12 @@
 | ------------------------------------------------------------------------- |
 |   Authors: Melih Berat ŞANLI (mberatsanli.com / github.io/mberatsanli)    |
 | Copyright (c) 2019, Melih Berat ŞANLI. All Rights Reserved.               |
-| ------------------------------------------------------------------------- |
-|   License: Distributed under the Lesser General Public License (LGPL)     |
-|            http://www.gnu.org/copyleft/lesser.html                        |
-| This library is distributed in the hope that it will be useful - WITHOUT  |
-| ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or     |
-| FITNESS FOR A PARTICULAR PURPOSE.                                         |
 '---------------------------------------------------------------------------'
 */
 
 /**
  * multilangPHP - PHP multi language support library
- * NOTE: Requires PHP version 7 or later
+ * NOTE: Requires PHP version 5.6 or later
  * @package multilangPHP
  * @author Melih Berat ŞANLI
  * @copyright 2019 Melih Berat ŞANLI
