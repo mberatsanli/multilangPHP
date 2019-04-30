@@ -5,7 +5,7 @@
 |  Software: multiLangPHP						    |
 |   Version: 1.0.0                                                          |
 | ------------------------------------------------------------------------- |
-|   Authors: Melih Berat ŞANLI (mberatsanli.com / github.io/mberatsanli)    |
+|   Authors: Melih Berat ŞANLI (mberatsanli.com / github.com/mberatsanli)    |
 | Copyright (c) 2019, Melih Berat ŞANLI. All Rights Reserved.               |
 '---------------------------------------------------------------------------'
 */
