@@ -2,7 +2,13 @@
   "name": "mberatsanli/multilangphp",
   "type": "library",
   "description": "Multilang is a language translator library ",
-  "keywords": ["multilangphp","php","multilang","translator", "mberatsanli"],
+  "keywords": [
+    "multilangphp",
+    "php",
+    "multilang",
+    "translator",
+    "mberatsanli"
+  ],
   "homepage": "https://github.com/mberatsanli/multilangPHP",
   "license": "MIT",
   "authors": [
@@ -14,6 +20,9 @@
     }
   ],
   "minimum-stability": "stable",
+  "require": {
+    "php": "^7.0"
+  },
   "autoload": {
     "psr-4": {
       "mberatsanli\\multilangphp\\": "src/"
