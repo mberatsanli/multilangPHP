@@ -19,7 +19,7 @@
       "role": "Full Stack Developer"
     }
   ],
-  "minimum-stability": "beta",
+  "minimum-stability": "stable",
   "prefer-stable": true,
   "require": {
     "php": ">=7.0",
