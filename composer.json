@@ -1,0 +1,16 @@
+{
+  "name": "mberatsanli/multilangPHP",
+  "type": "library",
+  "description": "Multilang is a language translator library ",
+  "keywords": ["multilangphp","php","multilang","translator", "mberatsanli"],
+  "homepage": "https://github.com/mberatsanli/multilangPHP",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Melih Berat ŞANLI",
+      "email": "mberatsanli@gmail.com",
+      "homepage": "https://www.mberatsanli.com.tr",
+      "role": "Full Stack Developer"
+    }
+  ]
+}
