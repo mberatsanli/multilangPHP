@@ -12,5 +12,13 @@
       "homepage": "https://www.mberatsanli.com.tr",
       "role": "Full Stack Developer"
     }
-  ]
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "mberatsanli\\multilangphp\\": "src/"
+    }
+  }
 }
