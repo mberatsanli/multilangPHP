@@ -10,7 +10,7 @@ namespace multilangPHP;
  * @version 2.0.1
  * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  */
-class multilang
+class multilangPHP
 {
     private $language = "tr";
     private $dir = "system/lang/";
