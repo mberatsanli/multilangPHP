@@ -19,7 +19,8 @@
       "role": "Full Stack Developer"
     }
   ],
-  "minimum-stability": "stable",
+  "minimum-stability": "beta",
+  "prefer-stable": true,
   "require": {
     "php": ">=7.0",
     "ext-tokenizer": "*"
