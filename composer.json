@@ -30,7 +30,7 @@
   },
   "autoload": {
     "psr-4": {
-      "mberatsanli\\multilangphp\\": "src/multilangPHP"
+      "multilangPHP\\": "src/multilangPHP"
     }
   }
 }
