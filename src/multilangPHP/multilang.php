@@ -1,5 +1,5 @@
 <?php
-namespace mberatsanli;
+namespace multilangPHP;
 
 /**
  * multilangPHP - PHP multi language support library
@@ -10,7 +10,7 @@ namespace mberatsanli;
  * @version 2.0.1
  * @license http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
  */
-class multilangphp
+class multilang
 {
     private $language = "tr";
     private $dir = "system/lang/";
