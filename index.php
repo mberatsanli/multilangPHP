@@ -1,6 +1,6 @@
 <?php
 
-include "src/multilangPHP.php";
+include "src/multilangphp.php";
 
 
 $mlang = new multilangPHP();
