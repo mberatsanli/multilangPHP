@@ -19,7 +19,7 @@
       "role": "Full Stack Developer"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "require": {
     "php": ">=7.0",
     "ext-tokenizer": "*"
