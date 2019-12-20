@@ -1,13 +1,10 @@
 <?php
 
-include "src/multilangphp.php";
+require_once __DIR__ . '/vendor/autoload.php'; // Autoload files using Composer autoload
+
+use multilangphp\multilangphp;
+
+$mlang = new multilangphp();
 
 
-$mlang = new multilangPHP();
-
-$mlang->setLanguage("tr");
-$mlang->setFrom("json");
-
-
-echo $mlang->call("test");
 

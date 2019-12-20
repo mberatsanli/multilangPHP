@@ -1,2 +1,4 @@
 index.php
 .dist
+vendor
+composer.lock

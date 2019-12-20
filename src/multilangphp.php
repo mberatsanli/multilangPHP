@@ -1,5 +1,5 @@
 <?php
-namespace multilangphp;
+namespace mberatsanli;
 
 /**
  * multilangPHP - PHP multi language support library
