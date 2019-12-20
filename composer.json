@@ -16,7 +16,7 @@
   "require": {
     "php": ">=7.0"
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
       "mberatsanli\\multilangphp\\": "src/"
