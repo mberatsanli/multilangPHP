@@ -13,9 +13,6 @@
       "role": "Full Stack Developer"
     }
   ],
-  "require": {
-    "php": ">=7.0"
-  },
   "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
